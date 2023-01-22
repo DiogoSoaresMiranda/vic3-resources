@@ -1,0 +1,28 @@
+l_braz_por:
+ #TRADE
+ trade_route_import_lens_option_beer_tooltip:1 "Estabeleça uma rota comercial de importação de ($beer$)"
+ trade_route_export_lens_option_beer_tooltip:1 "Estabeleça uma rota comercial de exportação de ($beer$)"
+ 
+ trade_route_import_lens_option_copper_tooltip:1 "Estabeleça uma rota comercial de importação de ($copper$)"
+ trade_route_export_lens_option_copper_tooltip:1 "Estabeleça uma rota comercial de exportação de ($copper$)"
+ 
+ trade_route_import_lens_option_tin_tooltip:1 "Estabeleça uma rota comercial de importação de ($tin$)"
+ trade_route_export_lens_option_tin_tooltip:1 "Estabeleça uma rota comercial de exportação de ($tin$)"
+ 
+ trade_route_import_lens_option_bronze_tooltip:1 "Estabeleça uma rota comercial de importação de ($bronze$)"
+ trade_route_export_lens_option_bronze_tooltip:1 "Estabeleça uma rota comercial de exportação de ($bronze$)"
+ 
+ trade_route_import_lens_option_sculptures_tooltip:1 "Estabeleça uma rota comercial de importação de ($sculptures$)"
+ trade_route_export_lens_option_sculptures_tooltip:1 "Estabeleça uma rota comercial de exportação de ($sculptures$)"
+ 
+ trade_route_import_lens_option_gold_tooltip:1 "Estabeleça uma rota comercial de importação de ($gold$)"
+ trade_route_export_lens_option_gold_tooltip:1 "Estabeleça uma rota comercial de exportação de ($gold$)"
+ 
+ trade_route_import_lens_option_gold_jewellery_tooltip:1 "Estabeleça uma rota comercial de importação de ($gold_jewellery$)"
+ trade_route_export_lens_option_gold_jewellery_tooltip:1 "Estabeleça uma rota comercial de exportação de ($gold_jewellery$)"
+ 
+ trade_route_import_lens_option_luxus_jewellery_tooltip:1 "Estabeleça uma rota comercial de importação de ($luxus_jewellery$)"
+ trade_route_export_lens_option_luxus_jewellery_tooltip:1 "Estabeleça uma rota comercial de exportação de ($luxus_jewellery$)"
+ 
+ trade_route_import_lens_option_gemstones_tooltip:1 "Estabeleça uma rota comercial de importação de ($gemstones$)"
+ trade_route_export_lens_option_gemstones_tooltip:1 "Estabeleça uma rota comercial de exportação de ($gemstones$)"

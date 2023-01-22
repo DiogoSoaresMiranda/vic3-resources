@@ -1,0 +1,26 @@
+﻿l_polish:
+    #Constructions
+    primary_school:0 "Primary School"
+    high_school:0 "High School"
+    
+    #Production Methods Groups
+    pmg_school_curriculum_p:0 "Curriculum for Primary School"
+    pmg_school_curriculum_h:0 "Curriculum for High School"
+    
+    #Production Methods
+    pm_standard_curriculum_p:0 "Standard Curriculum"
+    pm_standard_curriculum_h:0 "Standard Curriculum"
+    pm_minorly_improved_curriculum_p:0 "Minor Improvements to the Curriculum"
+    pm_minorly_improved_curriculum_h:0 "Minor Improvements to the Curriculum"
+    pm_majorly_improved_curriculum_p:0 "Major Improvements to the Curriculum"
+    pm_majorly_improved_curriculum_h:0 "Major Improvements to the Curriculum"
+    
+    #Technology
+    primary_school_tech:0 "Primary School"
+    primary_school_tech_desc:0 "School that educates children from 1st to 7th grade or there about. Varies on country."
+    high_school_tech:0 "High School"
+    high_school_tech_desc:0 "School that educates teens from 8th to 12th grade or there about. Varies on country."
+    minor_improvements_to_the_curriculum_tech:0 "Minor Improvements for the Curriculum"
+    minor_improvements_to_the_curriculum_tech_desc:0 "Improvements to the curriculum, resources, budget and time management for schoolsallow for faster and better teaching for children and teens."
+    major_improvements_to_the_curriculum_tech:0 "Major Improvements for the Curriculum"
+    major_improvements_to_the_curriculum_tech_desc:0 "Improvements to the curriculum, resources, budget, improvements to the teacher training, time management, school design and location allow for faster and better teaching for children and teens."

@@ -1,0 +1,163 @@
+l_french:
+ 
+ #MODIFIERS
+ 
+ #Input
+ 
+ modifier_building_input_beer_add:0 "@beer! Apport de bière par niveau"
+ modifier_building_input_beer_add_desc:0 "La quantité de @beer! Bière consommée par les bâtiments."
+ 
+ modifier_building_input_liquor_add:0 "@liquor! Apport de Spiritueux par niveau"
+ modifier_building_input_liquor_add_desc:0 "La quantité de @liquor! Spiritueux consommée par les bâtiments.."
+ 
+ modifier_building_input_wine_add:0 "@wine! Apport de vin par niveau"
+ modifier_building_input_wine_add_desc:0 "La quantité de @wine! Vin consommée par les bâtiments."
+ 
+ modifier_building_input_coffee_add:0 "@coffee! Apport de Café par niveau"
+ modifier_building_input_coffee_add_desc:0 "La quantité de @coffee! Café consommée par les bâtiments."
+ 
+ modifier_building_input_tea_add:0 "@tea! Apport de thé par niveau"
+ modifier_building_input_tea_add_desc:0 "La quantité de @tea! Thé consommée par les bâtiments."
+ 
+ modifier_building_input_tobacco_add:0 "@tobacco! Apport de Tabac par niveau"
+ modifier_building_input_tobacco_add_desc:0 "La quantité de @tobacco! Tabac consommée par les bâtiments."
+ 
+ modifier_building_input_copper_add:0 "@copper! Entrée cuivre par niveau"
+ modifier_building_input_copper_add_desc:0 "La quantité de @copper! cuivre consommé par les bâtiments."
+ 
+ modifier_building_input_tin_add:0 "@tin! Entrée d'étain par niveau"
+ modifier_building_input_tin_add_desc:0 "La quantité de @tin! étain consommé par les bâtiments."
+ 
+ modifier_building_input_bronze_add:0 "@bronze! Entrée Bronze par niveau"
+ modifier_building_input_bronze_add_desc:0 "La quantité de @bronze! Bronze consommé par les bâtiments."
+ 
+ modifier_building_input_sculptures_add:0 "@sculptures! Entrée de sculptures par niveau"
+ modifier_building_input_sculptures_add_desc:0 "La quantité de @sculptures! Sculptures consommé par les bâtiments."
+ 
+ modifier_building_input_gold_add:0 "@gold! Entrée d'or par niveau"
+ modifier_building_input_gold_add_desc:0 "La quantité d' @gold! or consommé par les bâtiments."
+ 
+ modifier_building_input_gold_jewellery_add:0 "@gold_jewellery! Entrée de bijoux en or par niveau"
+ modifier_building_input_gold_jewellery_add_desc:0 "La quantité de @gold_jewellery! bijoux en or consommé par les bâtiments."
+ 
+ modifier_building_input_luxus_jewellery_add:0 "@luxus_jewellery! Entrée de bijoux de luxe par niveau"
+ modifier_building_input_luxus_jewellery_add_desc:0 "La quantité de @luxus_jewellery! bijoux de luxe consommé par les bâtiments."
+ 
+ modifier_building_input_gemstones_add:0 "@gemstones! Entrée de pierres précieuses par niveau"
+ modifier_building_input_gemstones_add_desc:0 "La quantité de @gemstones! pierres précieuses consommé par les bâtiments."
+ 
+ modifier_building_input_furniture_add:0 "@furniture! Entrée de Mobilier par niveau"
+ modifier_building_input_furniture_add_desc:0 "La quantité de @furniture! Mobilier consommé par les bâtiments."
+ 
+ modifier_building_input_clothes_add:0 "@clothes! Entrée de Vêtements par niveau"
+ modifier_building_input_clothes_add_desc:0 "La quantité de @clothes! Vêtements consommé par les bâtiments."
+ 
+ modifier_building_input_luxury_furniture_add:0 "@luxury_furniture! Entrée de Meubles de Luxe par niveau"
+ modifier_building_input_luxury_furniture_add_desc:0 "La quantité de @luxury_furniture! Meubles de Luxe consommé par les bâtiments."
+ 
+ modifier_building_input_luxury_clothes_add:0 "@luxury_clothes! Entrée de vêtements de luxe par niveau"
+ modifier_building_input_luxury_clothes_add_desc:0 "La quantité de @luxury_clothes! Vêtements de Luxe consommé par les bâtiments."
+ 
+ modifier_building_input_porcelain_add:0 "@porcelain! Entrée de Porcelaine par niveau"
+ modifier_building_input_porcelain_add_desc:0 "La quantité de @porcelain! Porcelaine consommé par les bâtiments."
+ 
+ modifier_building_input_tea_add:0 "@tea! Entrée de thé par niveau"
+ modifier_building_input_tea_add_desc:0 "La quantité de @tea! Thé consommé par les bâtiments."
+ 
+ modifier_building_input_coffee_add:0 "@coffee! Entrée de café par niveau"
+ modifier_building_input_coffee_add_desc:0 "La quantité de @coffee! Café consommé par les bâtiments."
+ 
+ modifier_building_input_wine_add:0 "@wine! Entrée de vin par niveau"
+ modifier_building_input_wine_add_desc:0 "La quantité de @wine! Vin consommé par les bâtiments."
+ 
+ 
+ #Ouput
+ 
+ modifier_building_output_beer_add:0 "@beer! Production de bière par niveau"
+ modifier_building_output_beer_add_desc:0 "La quantité de @beer! Bière produite par les bâtiments."
+ 
+ modifier_building_output_copper_add:0 "@copper! Sortie de cuivre par niveau"
+ modifier_building_output_copper_add_desc:0 "La quantité de @copper! Copper produit par les batîments."
+ 
+ modifier_building_output_tin_add:0 "@tin! Production d'étain par niveau"
+ modifier_building_output_tin_add_desc:0 "La quantité de @tin! étain produit par les batîments."
+ 
+ modifier_building_output_bronze_add:0 "@bronze! Sortie de bronze par niveau"
+ modifier_building_output_bronze_add_desc:0 "La quantité de @bronze! Bronze produit par les batîments."
+ 
+ modifier_building_output_sculptures_add:0 "@sculptures! Sortie de sculptures par niveau"
+ modifier_building_output_sculptures_add_desc:0 "La quantité de @sculptures! Sculptures produit par les batîments."
+ 
+ modifier_building_output_gold_add:0 "@gold! Production d'or par niveau"
+ modifier_building_output_gold_add_desc:0 "La quantité d' @gold! or produite par les batîments."
+ 
+ modifier_building_output_gold_jewellery_add:0 "@gold_jewellery! Production de bijoux en or par niveau"
+ modifier_building_output_gold_jewellery_add_desc:0 "La quantité de @gold_jewellery! bijoux en or produit par les batîments."
+ 
+ modifier_building_output_luxus_jewellery_add:0 "@luxus_jewellery! Production de bijoux de luxe par niveau"
+ modifier_building_output_luxus_jewellery_add_desc:0 "La quantité de @luxus_jewellery! bijoux de luxe produit par les batîments."
+ 
+ modifier_building_output_gemstones_add:0 "@gemstones! Production de pierres précieuses par niveau"
+ modifier_building_output_gemstones_add_desc:0 "La quantité de @gemstones! pierres précieuses produit par les batîments."
+ 
+ 
+ #Other
+ 
+ modifier_state_building_public_house_max_level_add:0 "$building_public_house$ Niveau Maximum"
+ modifier_state_building_public_house_max_level_add_desc:0 "Un bonus ou malus au niveau maximum de $building_public_house$ ."
+ 
+ modifier_building_group_bg_tin_mining_tax_mult:0 "Revenu fiscal de l'exploitation minière de l'étain"
+ modifier_building_group_bg_tin_mining_tax_mult_desc:0 "Un bonus ou une pénalité pour imposer les revenus des mines d'étain"
+ 
+ modifier_building_group_bg_copper_mining_tax_mult:0 "Revenu fiscal de l'exploitation minière du cuivre"
+ modifier_building_group_bg_copper_mining_tax_mult_desc:0 "Un bonus ou une pénalité pour imposer les revenus des Mines de Cuivre"
+ 
+ modifier_building_group_bg_tin_mining_mortality_mult:0 "Mortalité des employés des mines d'étain"
+ modifier_building_group_bg_tin_mining_mortality_mult_desc:0 "Un bonus ou un malus à la mortalité des salariés de Mines d'étain"
+ 
+ modifier_building_group_bg_copper_mining_mortality_mult:0 "Mortalité des employés des mines de cuivre"
+ modifier_building_group_bg_copper_mining_mortality_mult_desc:0 "Un bonus ou un malus à la mortalité des salariés des Mines de Cuivre"
+ 
+ modifier_building_group_bg_tin_mining_standard_of_living_add:0 "Employé d'une mine d'étain [concept_sol]"
+ modifier_building_group_bg_tin_mining_standard_of_living_add_desc:0 "Un bonus ou une pénalité au [concept_sol] des employés des mines d'étain"
+ 
+ modifier_building_group_bg_copper_mining_standard_of_living_add:0 "Employé de la mine de cuivre [concept_sol]"
+ modifier_building_group_bg_copper_mining_standard_of_living_add_desc:0 "Un bonus ou une pénalité au [concept_sol] des employés des mines de cuivre"
+ 
+ modifier_building_group_bg_tin_mining_employee_mult:0 "Employés des mines d'étain"
+ modifier_building_group_bg_tin_mining_employee_mult_desc:0 "Une prime ou une pénalité au nombre d'employés dans les mines d'étain"
+ 
+ modifier_building_group_bg_copper_mining_employee_mult:0 "Employés des mines de cuivre"
+ modifier_building_group_bg_copper_mining_employee_mult_desc:0 "Une prime ou une pénalité au nombre d'employés dans les Mines de Cuivre"
+ 
+ modifier_building_tin_mine_throughput_mult:0 "$building_tin_mine$-[concept_throughput]"
+ modifier_building_tin_mine_throughput_mult_desc:0 "Un bonus ou une pénalité à l'entrée et à la sortie de $building_tin_mine$"
+ 
+ modifier_building_copper_mine_throughput_mult:0 "$building_copper_mine$-[concept_throughput]"
+ modifier_building_copper_mine_throughput_mult_desc:0 "Un bonus ou une pénalité à l'entrée et à la sortie de $building_copper_mine$" 
+ 
+ modifier_building_bronze_throughput_mult:0 "$building_bronze$-[concept_throughput]"
+ modifier_building_bronze_throughput_mult_desc:0 "Un bonus ou une pénalité à l'entrée et à la sortie de $building_bronze$"
+ 
+ modifier_building_foundry_throughput_mult:0 "$building_foundry$-[concept_throughput]"
+ modifier_building_foundry_throughput_mult_desc:0 "Un bonus ou une pénalité à l'entrée et à la sortie de $building_foundry$"
+ 
+ modifier_building_gemstones_mine_throughput_mult:0 "$building_gemstones_mine$-[concept_throughput]"
+ modifier_building_gemstones_mine_throughput_mult_desc:0 "Un bonus ou une pénalité à l'entrée et à la sortie de $building_gemstones_mine$"
+ 
+ modifier_building_group_bg_department_stores_tax_mult:0 "Revenu fiscal des grands magasins"
+ modifier_building_group_bg_department_stores_tax_mult_desc:0 "Un bonus ou un malus à l'impôt sur les revenus des grands magasins"
+ 
+ modifier_country_subsidies_bg_department_stores:0 "Peut subventionner $bg_department_stores$"
+ modifier_country_subsidies_bg_department_stores_desc:0 "Autorisation légale d'adopter des subventions gouvernementales de $bg_department_stores$"
+ 
+ modifier_state_building_department_store_max_level_add:0 "$building_department_store$ Niveau Maximum"
+ modifier_state_building_department_store_max_level_add_desc:0 "Un bonus ou malus au niveau maximum de $building_department_store$ buildings."
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

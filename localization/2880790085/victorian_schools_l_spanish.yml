@@ -1,0 +1,26 @@
+﻿l_spanish:
+    #Constructions
+    primary_school:0 "Escuelas de primaria"
+    high_school:0 "Institutos"
+    
+    #Production Methods Groups
+    pmg_school_curriculum_p:0 "Currículum para la primera etapa de primaria"
+    pmg_school_curriculum_h:0 "Currículum para la etapa secundaria y bachilleres"
+    
+    #Production Methods
+    pm_standard_curriculum_p:0 "Currículum estándar"
+    pm_standard_curriculum_h:0 "Currículum estándar"
+    pm_minorly_improved_curriculum_p:0 "Modificaciones del plan de estudios"
+    pm_minorly_improved_curriculum_h:0 "Modificaciones menores del plan de estudios"
+    pm_majorly_improved_curriculum_p:0 "Renovación del plan de estudios"
+    pm_majorly_improved_curriculum_h:0 "Renovación y mejoras del plan de estudios"
+    
+    #Technology
+    primary_school_tech:0 "Escuela de primaria"
+    primary_school_tech_desc:0 "Centro educativo que educa a niños de 1° a 7° grado más o menos. Varía según el país."
+    high_school_tech:0 "Instituto"
+    high_school_tech_desc:0 "Institución educativa que educa a niños de 8° a 12° grado más o menos. Varía según el país."
+    minor_improvements_to_the_curriculum_tech:0 "Modificaciones menores al plan de estudios"
+    minor_improvements_to_the_curriculum_tech_desc:0 "Las mejoras en el plan de estudios, los recursos, el presupuesto y la gestión del tiempo de las escuelas permiten una enseñanza mejor y más rápida para niños y adolescentes."
+    major_improvements_to_the_curriculum_tech:0 "Mejoras importantes para el plan de estudios"
+    major_improvements_to_the_curriculum_tech_desc:0 "Las mejoras en el plan de estudios, los recursos, el presupuesto, las mejoras en la formación de los maestros, la gestión del tiempo, el diseño y la ubicación de la escuela permiten una enseñanza más rápida y mejor para niños y adolescentes."

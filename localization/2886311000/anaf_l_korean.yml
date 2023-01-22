@@ -1,0 +1,21 @@
+﻿l_korean:
+
+ pmg_supplies:0 "육군 보급품"
+ pmg_naval_supplies:0 "해군 보급품"
+ pmg_supplies_conscription:0 "징집병 보급품"
+  
+ pm_supplies_hard:0 "가혹한 보급품"
+ pm_supplies_not_enough:0 "충분하지 않은 보급품"
+ pm_supplies_soso:0 "그저 그런 보급품"
+ pm_supplies_normal:0 "평범한 보급품"
+ pm_supplies_not_bad:0 "나쁘지 않은 보급품"
+ pm_supplies_affluent:0 "넉넉한 보급품"
+ pm_supplies_luxurious:0 "사치스러운 보급품"
+ 
+ pm_naval_supplies_hard:0 "가혹한 보급품"
+ pm_naval_supplies_not_enough:0 "충분하지 않은 보급품"
+ pm_naval_supplies_soso:0 "그저 그런 보급품"
+ pm_naval_supplies_normal:0 "평범한 보급품"
+ pm_naval_supplies_not_bad:0 "나쁘지 않은 보급품"
+ pm_naval_supplies_affluent:0 "넉넉한 보급품"
+ pm_naval_supplies_luxurious:0 "사치스러운 보급품"
