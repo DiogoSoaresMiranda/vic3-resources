@@ -1,0 +1,198 @@
+﻿### ReiCoringa https://steamcommunity.com/id/JokerKing404/ ###
+
+###### Refining and combining ###### 
+
+### Metal Manufacturer ###
+
+building_foundry = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/foundry.dds"
+	city_type = city
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		manufacturies
+	}
+	
+	production_method_groups = {
+		pmg_bronze_making
+		pmg_zamak_making
+		pmg_automation_building_foundry
+		pmg_ownership_capital_building_industry
+	}
+	
+	required_construction = construction_cost_high
+}
+
+cement_mill = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/cement_mill.dds"
+	city_type = city
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		manufacturies
+	}
+	
+	production_method_groups = {
+		pmg_cement_making
+		pmg_automation_building_foundry
+		pmg_ownership_capital_building_industry
+	}
+	
+	required_construction = construction_cost_high
+}
+
+faceting_studio = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/faceting_studio.dds"
+	city_type = city
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		manufacturies
+	}
+	
+	production_method_groups = {
+		pmg_lapidary_gemstones
+		pmg_polishing_gemstones
+		pmg_automation_building_foundry
+		pmg_ownership_capital_building_industry
+	}
+	
+	required_construction = construction_cost_high
+}
+##############
+
+
+### Workshops ###
+
+jewelry = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/jewelry.dds"
+	city_type = city
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		manufacturies
+	}
+	
+	production_method_groups = {
+		pmg_aluminium_jewellery
+		pmg_zamak_jewellery
+		pmg_bronze_jewellery
+		pmg_gold_jewellery
+		pmg_luxury_jewellery
+		pmg_ownership_capital_building_industry
+	}
+	
+	required_construction = construction_cost_high
+}
+
+carriage_house = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/carriage_house.dds"
+	city_type = city
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		manufacturies
+	}
+	
+	production_method_groups = {
+		pmg_carriage_production
+		pmg_motor_carriage_production
+		pmg_automation_building_foundry
+		pmg_ownership_capital_building_industry
+	}
+	
+	required_construction = construction_cost_high
+}
+
+sanitary_facilities = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/sanitary_facilities.dds"
+	city_type = city
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		manufacturies
+	}
+	
+	production_method_groups = {
+		pmg_sanitary_production
+		pmg_luxury_sanitary_production
+		pmg_automation_building_foundry
+		pmg_ownership_capital_building_industry
+	}
+	
+	required_construction = construction_cost_high
+}
+
+#################
+
+
+### Water System ###
+
+sewage_treatment = {
+	building_group = bg_heavy_industry	
+	texture = "gfx/interface/icons/building_icons/sewage_treatment.dds"
+	
+	unlocking_technologies = {
+		modern_sewerage
+	}
+
+	production_method_groups = {
+		pmg_water_system
+		pmg_sewerage_system
+		pmg_automation_building_foundry
+		pmg_ownership_capital_building_industry
+	}
+
+	required_construction = construction_cost_high
+	
+	ai_value = 2000
+	
+	should_auto_expand = { 
+		OR = {
+			cash_reserves_ratio > 0.5
+			is_subsidized = yes
+		}
+		state.market_access < 1
+		owner.construction_queue_duration < max_autoexpand_queue_weeks
+	}
+}
+
+####################
+
+### Transport System ###
+
+roadway = {
+	building_group = bg_private_infrastructure	
+	texture = "gfx/interface/icons/building_icons/roadway.dds"
+	
+	unlocking_technologies = {
+		urban_planning
+	}
+	
+	production_method_groups = {
+		pmg_road_maintenance
+		pmg_bus_system
+		pmg_ownership_capital_building_industry
+	}
+
+	required_construction = construction_cost_medium
+	
+	ai_value = 2000
+	
+	should_auto_expand = { 
+		OR = {
+			cash_reserves_ratio > 0.5
+			is_subsidized = yes
+		}
+		state.market_access < 1
+		owner.construction_queue_duration < max_autoexpand_queue_weeks
+	}
+}
+
+########################

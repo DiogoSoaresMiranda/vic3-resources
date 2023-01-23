@@ -1,0 +1,83 @@
+﻿### Trying to unify everything ###
+
+#################################
+
+### Horses ###
+
+pmg_base_building_breeding = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_simple_breeding
+		pm_intensive_breeding_ranch
+	}
+}
+
+pmg_horse_slaughtering = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		no_horse_butchering
+		pm_horse_butchering_tools
+		pm_horse_slaughterhouses
+		pm_horse_mechanized_slaughtering
+	}
+}
+
+pmg_horse_fencing = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_standard_fences
+		pm_barbed_wire_fences
+		pm_electric_fencing
+	}
+}
+
+pmg_refrigeration_building_horse = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_unrefrigerated
+		pm_refrigerated_storage_building_horse
+		pm_refrigerated_rail_cars_building_horse
+	}
+}
+
+pmg_ownership_land_building_horse = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_privately_owned
+		pm_publicly_traded
+		pm_government_run
+		pm_worker_cooperative_farm
+	}
+}
+
+###########
+
+### Bees ###
+
+pmg_base_building_apiary = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		default_building_apiary
+		smoker_building_apiary
+	}
+}
+
+pmg_train_automation_building_apiary = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_road_carts
+		pm_steam_rail_transport
+	}
+}
+
+pmg_ownership_land_building_apiary = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_privately_owned
+		pm_publicly_traded
+		pm_government_run
+		pm_worker_cooperative_farm
+	}
+}
+
+###########

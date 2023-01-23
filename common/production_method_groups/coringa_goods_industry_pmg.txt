@@ -1,0 +1,221 @@
+﻿### ReiCoringa https://steamcommunity.com/id/JokerKing404/ ###
+
+### Trying to unify everything ###
+
+#Ownership
+
+pmg_ownership_capital_building_industry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_privately_owned_industry
+		pm_publicly_traded_building_industry
+		pm_government_run_industry
+		pm_worker_cooperative_industry
+	}
+}
+
+#Automation
+
+pmg_automation_building_foundry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_automation_disabled
+		pm_watertube_boiler_building_steel_mills
+		pm_rotary_valve_engine_building_steel_mills
+	}
+}
+
+#########
+
+###### Refining and combining ###### 
+
+### Foundry ###
+
+#Bronze
+pmg_bronze_making = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_production
+		pm_bronze_coal_furnace
+		pm_bronze_gas_furnace
+		pm_bronze_eletric_furnace
+	}
+}
+
+#Zamak
+
+pmg_zamak_making = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_production_second
+		pm_zamak_coal_furnace
+		pm_zamak_gas_furnace
+		pm_zamak_eletric_furnace
+	}
+}
+
+#Cement
+
+pmg_cement_making = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_cement_manual_mixing
+		pm_cement_eletric_mixing
+	}
+}
+
+#Gemstones
+
+pmg_lapidary_gemstones = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_gemstones_manual_cutting
+		pm_gemstones_eletric_cutting
+	}
+}
+
+pmg_polishing_gemstones = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_production_second
+		pm_gemstones_manual_polishing
+		pm_gemstones_eletric_polishing
+	}
+}
+
+
+##############
+
+###### Workshops ###### 
+
+#Jewelry
+
+pmg_aluminium_jewellery = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_production
+		pm_aluminium_jewellery
+	}
+}
+
+pmg_zamak_jewellery = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_production_second
+		pm_zamak_jewellery
+	}
+}
+
+pmg_bronze_jewellery = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_production_third
+		pm_bronze_jewellery
+	}
+}
+
+pmg_gold_jewellery = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_production_fourth
+		pm_gold_jewellery
+	}
+}
+
+pmg_luxury_jewellery = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_production_fifth
+		pm_luxury_jewellery
+	}
+}
+
+
+#Carriage House
+
+pmg_carriage_production = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_carriage_production
+		pm_reinforced_carriage_production
+		pm_motor_carriages_production
+	}
+}
+
+pmg_motor_carriage_production = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_production
+		pm_carriage_bus_production
+		pm_motor_carriages_bus_production
+	}
+}
+
+#Sanitary Facilities
+
+pmg_sanitary_production = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_cement_sanitary_production
+		pm_ornamental_rocks_sanitary_production
+		pm_cooper_sanitary_production
+	}
+}
+
+pmg_luxury_sanitary_production = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_production
+		pm_porcelain_luxury_sanitary_production
+		pm_steel_luxury_sanitary_production
+		
+	}
+}
+
+#######################
+
+
+### Water System ###
+
+pmg_water_system = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_basic_collection
+		pm_advanced_collection
+	}
+}
+
+### Sewerage System ###
+
+pmg_sewerage_system = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_treatment
+		pm_sewerage_treatment
+	}
+}
+
+####################
+
+### Transport System ###
+
+pmg_road_maintenance = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_dirt_roads
+		pm_rocks_roads
+		pm_cement_roads
+	}
+}
+
+pmg_bus_system = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_production
+		pm_horse_rent_system
+		pm_carriage_bus
+		pm_motor_carriage_bus
+	}
+}
+
+########################

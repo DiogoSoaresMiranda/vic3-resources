@@ -1,0 +1,81 @@
+﻿STATE_RIO_DE_JANEIRO = {
+    id = 392
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x1FCD89" "x258421" "x27995A" "x3BDEE1" "x4E6C36" "x58C1DF" "x7205C6" "x8350FC" "x9555DE" "x96728E" "x96ACE0" "x9FCD89" "xAFC26F" "xB97C7F" "xE0E888" "xF21572" }
+    city = "x96ACE0"
+    port = "xE0E888"
+    farm = "x4E6C36"
+    mine = "xF21572"
+    wood = "x96728E"
+    arable_land = 100
+    arable_resources = { "bg_maize_farms" "bg_livestock_ranches" "bg_stud_farm" "bg_apiary_farm" "bg_coffee_plantations" "bg_dye_plantations" "bg_tea_plantations" "bg_sugar_plantations" "bg_banana_plantations" }
+    capped_resources = {
+        bg_logging = 9
+        bg_fishing = 9
+		bg_copper_mining = 9
+		bg_tin_mining = 9
+		bg_rough_gemstones_mining = 9
+		bg_zinc_mining = 9
+		bg_aluminium_mining = 9
+		bg_magnesium_mining = 9
+    }
+    resource = {
+        type = "bg_rubber"
+        discovered_amount = 7
+    }	
+	resource = {
+        type = "bg_copper_fields"
+        discovered_amount = 7
+    }
+	resource = {
+        type = "bg_tin_fields"
+        discovered_amount = 7
+    }
+	resource = {
+        type = "bg_rough_gemstones_fields"
+        discovered_amount = 7
+    }
+	resource = {
+        type = "bg_zinc_fields"
+        discovered_amount = 7
+    }
+	resource = {
+        type = "bg_aluminium_fields"
+        discovered_amount = 7
+    }
+	resource = {
+        type = "bg_magnesium_fields"
+        discovered_amount = 7
+    }
+	resource = {
+        type = "bg_copper_fields"
+        depleted_type = "bg_copper_mining"
+        undiscovered_amount = 4
+    }
+	resource = {
+        type = "bg_tin_fields"
+        depleted_type = "bg_tin_mining"
+        undiscovered_amount = 4
+    }
+	resource = {
+        type = "bg_rough_gemstones_fields"
+        depleted_type = "bg_rough_gemstones_mining"
+        undiscovered_amount = 4
+    }
+	resource = {
+        type = "bg_zinc_fields"
+        depleted_type = "bg_zinc_mining"
+        undiscovered_amount = 4
+    }
+	resource = {
+        type = "bg_aluminium_fields"
+        depleted_type = "bg_aluminium_mining"
+        undiscovered_amount = 4
+    }
+	resource = {
+        type = "bg_magnesium_fields"
+        depleted_type = "bg_magnesium_mining"
+        undiscovered_amount = 4
+    }
+    naval_exit_id = 3064
+}

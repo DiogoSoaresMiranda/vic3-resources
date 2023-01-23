@@ -1,0 +1,606 @@
+﻿# goods						The good being referenced
+# weight					The base weight that is applied to this good based on market Sell Order share
+# max_weight				The maximum weight that can be applied to this good based on market Sell Order share, only meaningful in relation to weight
+# min_weight				The minimum weight that can be applied to this good based on market Sell Order share, only meaningful in relation to weight
+
+
+### Override ###
+
+popneed_household_items = {
+	default = furniture
+
+	entry = {
+		goods = furniture
+		
+		weight = 1
+		max_weight = 4.0 # Maxes out at 80% of supply share
+		min_weight = 0.25
+	}
+	
+	entry = {
+		goods = glass
+		
+		weight = 1
+		max_weight = 4.0 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = paper
+		
+		weight = 0.5
+		max_weight = 2.0 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = wax
+		
+		weight = 0.5
+		max_weight = 2.0 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}	
+}
+
+popneed_intoxicants = {
+	default = liquor
+
+	entry = {
+		goods = liquor
+		
+		weight = 1
+		max_weight = 3.0 # Maxes out at 60% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = tobacco
+		
+		weight = 1
+		max_weight = 3.0 # Maxes out at 60% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = opium
+		
+		weight = 1
+		max_weight = 3.0 # Maxes out at 60% of supply share
+		min_weight = 0.0
+	}
+	
+	### Added Beer ###
+	
+	entry = {
+		goods = beer
+		
+		weight = 1
+		max_weight = 3.0 # Maxes out at 60% of supply share
+		min_weight = 0.0
+	}
+}
+
+popneed_free_movement = {
+	default = transportation
+
+	entry = {
+		goods = services
+		
+		weight = 0.1
+		max_weight = 0.4 # Maxes out at 80% of supply share
+		min_weight = 0.0
+	}
+
+	entry = {
+		goods = transportation
+		
+		weight = 2
+		max_weight = 3.0 # Maxes out at 80% of supply share
+		min_weight = 0.0
+	}
+	
+	### Added Horse, Carriage and Carriage with motor ###
+	entry = {
+		goods = horse
+		
+		weight = 1.75
+		max_weight = 2.0 # Maxes out at 80% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = carriages
+		
+		weight = 1.5
+		max_weight = 2.5 # Maxes out at 80% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = motor_carriages
+		
+		weight = 1.25
+		max_weight = 3.0 # Maxes out at 80% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = automobiles
+		
+		weight = 1
+		max_weight = 3.5 # Maxes out at 80% of supply share
+		min_weight = 0.0
+	}
+}
+
+popneed_luxury_food = {
+	default = meat
+	
+	entry = {
+		goods = meat
+		
+		weight = 1
+		max_weight = 2.0 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = fruit
+		
+		weight = 1
+		max_weight = 2.0 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = groceries
+		
+		weight = 1
+		max_weight = 2.0 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = sugar
+		
+		weight = 0.5
+		max_weight = 2.0 # Maxes out at 80% of supply share
+		min_weight = 0.0
+	}
+	
+	### Added Honey ###
+	entry = {
+		goods = honey
+		
+		weight = 0.5
+		max_weight = 2.0 # Maxes out at 80% of supply share
+		min_weight = 0.0
+	}
+}
+
+###############
+
+### New ###
+
+popneed_jewellery = {
+	default = jewellery
+	
+	entry = {
+		goods = jewellery
+		
+		weight = 1
+		max_weight = 2.0 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = gold_jewellery
+		
+		weight = 0.5
+		max_weight = 3.0 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = rough_gemstones
+		
+		weight = 0.25
+		max_weight = 2.0 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+}
+
+popneed_luxury_jewellery = {
+	default = gold_jewellery
+	
+	entry = {
+		goods = gold_jewellery
+		
+		weight = 0.5
+		max_weight = 2.0 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = luxury_jewellery
+		
+		weight = 0.5
+		max_weight = 3.0 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = rough_gemstones
+		
+		weight = 0.25
+		max_weight = 1.0 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = gemstones
+		
+		weight = 0.5
+		max_weight = 2.0 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+}
+
+popneed_personal_movement_early = {
+	default = horse
+	
+	entry = {
+		goods = services
+		
+		weight = 0.05
+		max_weight = 0.2 # Maxes out at 80% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = transportation
+		
+		weight = 0.1
+		max_weight = 0.4 # Maxes out at 80% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = horse
+		
+		weight = 1
+		max_weight = 2.0 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = carriages
+		
+		weight = 0.5
+		max_weight = 3.0 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = motor_carriages
+		
+		weight = 0.25
+		max_weight = 4.0 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+}
+
+popneed_personal_movement_middle = {
+	default = carriages
+	
+	entry = {
+		goods = services
+		
+		weight = 0.05
+		max_weight = 0.2 # Maxes out at 80% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = transportation
+		
+		weight = 0.1
+		max_weight = 0.4 # Maxes out at 80% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = horse
+		
+		weight = 0.15
+		max_weight = 0.5 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = carriages
+		
+		weight = 1
+		max_weight = 3.0 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = motor_carriages
+		
+		weight = 0.5
+		max_weight = 4.0 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+}
+
+popneed_personal_movement_end = {
+	default = motor_carriages
+	
+	entry = {
+		goods = services
+		
+		weight = 0.05
+		max_weight = 0.2 # Maxes out at 80% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = transportation
+		
+		weight = 0.1
+		max_weight = 0.4 # Maxes out at 80% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = horse
+		
+		weight = 0.15
+		max_weight = 0.5 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = carriages
+		
+		weight = 1.0
+		max_weight = 2.0 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = motor_carriages
+		
+		weight = 2.0
+		max_weight = 6.0 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+}
+
+popneed_sanitary = {
+	default = sanitary
+	
+	entry = {
+		goods = services
+		
+		weight = 0.05
+		max_weight = 0.2 # Maxes out at 80% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = sanitary
+		
+		weight = 2
+		max_weight = 2.5 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = rocks
+		
+		weight = 1.0
+		max_weight = 1.5 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = luxury_sanitary
+		
+		weight = 1
+		max_weight = 3.0 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = ornamental_rocks
+		
+		weight = 0.5
+		max_weight = 2.0 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = water_system
+		
+		weight = 1.5
+		max_weight = 5.0 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = sewerage
+		
+		weight = 1.5
+		max_weight = 5.0 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+}
+
+popneed_luxury_sanitary = {
+	default = luxury_sanitary
+	
+	entry = {
+		goods = services
+		
+		weight = 0.05
+		max_weight = 0.2 # Maxes out at 80% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = luxury_sanitary
+		
+		weight = 4
+		max_weight = 6.0 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = ornamental_rocks
+		
+		weight = 2.0
+		max_weight = 4.0 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = water_system
+		
+		weight = 3.5
+		max_weight = 10.0 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = sewerage
+		
+		weight = 3.5
+		max_weight = 10.0 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+}
+
+popneed_building_ornaments = {
+	default = rocks
+	
+	entry = {
+		goods = wood
+		
+		weight = 0.10
+		max_weight = 1.5 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = rocks
+		
+		weight = 0.25
+		max_weight = 2.0 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = cement
+		
+		weight = 0.75
+		max_weight = 2.5 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = hardwood
+		
+		weight = 0.50
+		max_weight = 2.0 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = ornamental_rocks
+		
+		weight = 2.0
+		max_weight = 8.0 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+}
+
+popneed_luxury_art = {
+	default = luxury_art
+	
+	entry = {
+		goods = services
+		
+		weight = 0.05
+		max_weight = 0.2 # Maxes out at 80% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = fine_art
+		
+		weight = 0.5
+		max_weight = 1.0 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = luxury_art
+		
+		weight = 2
+		max_weight = 6.0 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+}
+
+popneed_sculptures = {
+	default = sculptures
+	
+	entry = {
+		goods = services
+		
+		weight = 0.05
+		max_weight = 0.2 # Maxes out at 80% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = sculptures
+		
+		weight = 1
+		max_weight = 2.0 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+}
+
+popneed_luxury_sculptures = {
+	default = luxury_sculptures
+	
+	entry = {
+		goods = services
+		
+		weight = 0.05
+		max_weight = 0.2 # Maxes out at 80% of supply share
+		min_weight = 0.0
+	}
+	
+	entry = {
+		goods = sculptures
+		
+		weight = 0.5
+		max_weight = 1.0 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+
+	entry = {
+		goods = luxury_sculptures
+		
+		weight = 2
+		max_weight = 6.0 # Maxes out at 40% of supply share
+		min_weight = 0.0
+	}
+}
+
+
+###############

@@ -1,0 +1,444 @@
+﻿### ReiCoringa https://steamcommunity.com/id/JokerKing404/ ###
+
+############
+# MILITARY #
+############
+
+##########
+# STAPLE #
+##########
+
+jewellery = {
+	texture = "gfx/interface/icons/goods_icons/jewellery.dds"
+	cost = 20
+	category = staple
+	
+	prestige_factor = 3
+	
+	convoy_cost_multiplier = 0.5
+	
+	consumption_tax_cost = 200
+}
+
+beer = {
+	texture = "gfx/interface/icons/goods_icons/beer.dds"
+	cost = 15
+	category = staple
+	
+	prestige_factor = 3
+	
+	obsession_chance = 0.5
+	
+	convoy_cost_multiplier = 0.5
+	
+	consumption_tax_cost = 200
+}
+
+
+
+## Transport ##
+
+horse = {
+	texture = "gfx/interface/icons/goods_icons/horse.dds"
+	cost = 20
+	category = staple
+	
+	prestige_factor = 5
+	
+	convoy_cost_multiplier = 1.5
+	
+	consumption_tax_cost = 250
+}
+
+carriages_bus = {
+	texture = "gfx/interface/icons/goods_icons/carriages_bus.dds"
+	cost = 30
+	category = staple
+	
+	obsession_chance = 1.0
+	
+	prestige_factor = 7
+}
+
+motor_carriages_bus = {
+	texture = "gfx/interface/icons/goods_icons/motor_carriages_bus.dds"
+	cost = 40
+	category = staple
+	
+	obsession_chance = 1.5
+	
+	prestige_factor = 10
+}
+##############
+
+## Water ##
+
+water_system = {
+	texture = "gfx/interface/icons/goods_icons/water_system.dds"
+	cost = 15
+	category = staple
+	
+	prestige_factor = 5
+	
+	obsession_chance = 0.75
+	
+	convoy_cost_multiplier = 4.0
+	
+	consumption_tax_cost = 100
+}
+
+sewerage = {
+	texture = "gfx/interface/icons/goods_icons/sewerage.dds"
+	cost = 15
+	category = staple
+	
+	prestige_factor = 5
+	
+	obsession_chance = 0.75
+	
+	convoy_cost_multiplier = 4.0
+	
+	consumption_tax_cost = 100
+}
+
+##############
+
+
+##############
+# INDUSTRIAL #
+##############
+
+### Mining Goods ###
+
+
+# This will be a secondary product of stone and a separeted mine #
+rough_gemstones = {
+
+	##### This will be a secondary product of stone and a separeted mine
+
+	texture = "gfx/interface/icons/goods_icons/rough_gemstones.dds"
+	cost = 100										
+	category = industrial
+	prestige_factor = 3
+	
+	obsession_chance = 0.75
+	
+	convoy_cost_multiplier = 0.1
+}
+
+zinc = {
+
+	##### This will be a secondary product of stone and a separeted mine
+
+
+	texture = "gfx/interface/icons/goods_icons/zinc.dds"
+	cost = 20
+	category = industrial
+	
+	prestige_factor = 5
+	
+}
+
+aluminium = {
+
+	##### This will be a secondary product of stone and a separeted mine
+
+
+	texture = "gfx/interface/icons/goods_icons/aluminium.dds"
+	cost = 20
+	category = industrial
+	
+	prestige_factor = 5
+	
+}
+
+magnesium = {
+
+	##### This will be a secondary product of stone and a separeted mine
+
+
+	texture = "gfx/interface/icons/goods_icons/magnesium.dds"
+	cost = 20
+	category = industrial
+	
+	prestige_factor = 5
+	
+}
+
+copper = {
+
+	##### This will be a secondary product of stone and a separeted mine
+
+
+	texture = "gfx/interface/icons/goods_icons/copper.dds"
+	cost = 20
+	category = industrial
+	
+	prestige_factor = 5
+	
+}
+
+tin = {
+
+	##### This will be a secondary product of stone and a separeted mine
+
+	texture = "gfx/interface/icons/goods_icons/tin.dds"
+	cost = 20
+	category = industrial
+	
+	prestige_factor = 5
+	
+}
+
+ # #
+
+
+rocks = {
+	texture = "gfx/interface/icons/goods_icons/rocks.dds"
+	cost = 20
+	category = industrial
+	
+	obsession_chance = 0.25
+	
+	prestige_factor = 3
+}
+
+limestone = {
+
+	##### This will be a secondary product of "rocks" 
+	
+	texture = "gfx/interface/icons/goods_icons/limestone.dds"
+	cost = 20
+	category = industrial
+	
+	prestige_factor = 3
+	
+}
+
+
+
+#####################
+
+### Alloys ###
+
+bronze = {
+	texture = "gfx/interface/icons/goods_icons/bronze.dds"
+	cost = 60
+	category = industrial
+	
+	prestige_factor = 8
+}
+
+zamak = {
+	texture = "gfx/interface/icons/goods_icons/zamak.dds"
+	cost = 45
+	category = industrial
+	
+	prestige_factor = 8
+}
+
+##############
+
+wax = {
+	texture = "gfx/interface/icons/goods_icons/wax.dds"
+	cost = 20
+	category = industrial
+	
+	obsession_chance = 0.25
+	
+	prestige_factor = 3
+}
+
+cement = {
+	texture = "gfx/interface/icons/goods_icons/cement.dds"
+	cost = 40
+	category = industrial
+	
+	prestige_factor = 5
+}
+
+
+##########
+# LUXURY #
+##########
+
+gemstones = {
+	texture = "gfx/interface/icons/goods_icons/gemstones.dds"
+	cost = 100										
+	category = luxury
+	prestige_factor = 8
+	convoy_cost_multiplier = 0.1
+	
+	obsession_chance = 0.75
+}
+
+gold_jewellery = {
+	texture = "gfx/interface/icons/goods_icons/gold_jewellery.dds"
+	cost = 130
+	category = luxury
+	
+	obsession_chance = 1.0
+	prestige_factor = 5
+	
+	convoy_cost_multiplier = 0.1
+}
+
+luxury_jewellery = {
+	texture = "gfx/interface/icons/goods_icons/luxury_jewellery.dds"
+	cost = 200										
+	category = luxury
+	
+	obsession_chance = 1.5
+	prestige_factor = 10
+	
+	convoy_cost_multiplier = 0.1
+}
+
+sculptures = {
+	texture = "gfx/interface/icons/goods_icons/sculptures.dds"
+	cost = 100
+	category = luxury
+	
+	obsession_chance = 1.0
+	prestige_factor = 7
+	
+	convoy_cost_multiplier = 1.5
+}
+
+luxury_sculptures = {
+	texture = "gfx/interface/icons/goods_icons/luxury_sculptures.dds"
+	cost = 200
+	category = luxury
+	
+	obsession_chance = 1.0
+	prestige_factor = 15
+	
+	convoy_cost_multiplier = 1.5
+}
+
+luxury_art = {
+	texture = "gfx/interface/icons/goods_icons/luxury_art.dds"
+	cost = 400
+	category = luxury
+	
+	obsession_chance = 1.5
+	prestige_factor = 35
+	
+	traded_quantity = 5
+}
+
+carriages = {
+	texture = "gfx/interface/icons/goods_icons/carriages.dds"
+	cost = 100
+	category = luxury
+	
+	obsession_chance = 2.0
+	prestige_factor = 10
+}
+
+motor_carriages = {
+	texture = "gfx/interface/icons/goods_icons/motor_carriages.dds"
+	cost = 200
+	category = luxury
+	
+	obsession_chance = 2.5
+	prestige_factor = 20
+}
+
+sanitary = {
+	texture = "gfx/interface/icons/goods_icons/sanitary.dds"
+	cost = 100
+	category = luxury
+	
+	obsession_chance = 2.5
+	prestige_factor = 10
+}
+
+luxury_sanitary = {
+	texture = "gfx/interface/icons/goods_icons/luxury_sanitary.dds"
+	cost = 200
+	category = luxury
+	
+	obsession_chance = 2.5
+	prestige_factor = 20
+}
+
+############ This come from mining or farms ############
+ornamental_rocks = {
+	texture = "gfx/interface/icons/goods_icons/ornamental_rocks.dds"
+	cost = 60
+	category = luxury
+	
+	obsession_chance = 0.5
+	
+	prestige_factor = 10
+}
+
+honey = {
+	texture = "gfx/interface/icons/goods_icons/honey.dds"
+	cost = 50										
+	category = luxury
+	prestige_factor = 10
+	obsession_chance = 1.5
+	
+	convoy_cost_multiplier = 0.25
+}
+
+################################################
+
+############
+# OVERRIDE #
+############
+
+gold = {
+	texture = "gfx/interface/icons/goods_icons/gold.dds"
+	cost = 100
+	category = luxury
+	tradeable = yes
+	fixed_price = yes
+	prestige_factor = 5
+}
+
+transportation = {
+	texture = "gfx/interface/icons/goods_icons/transportation.dds"
+	cost = 30
+	category = staple
+	tradeable = yes
+
+	prestige_factor = 4
+	
+	consumption_tax_cost = 200
+}
+
+electricity = {
+	texture = "gfx/interface/icons/goods_icons/electricity.dds"
+	cost = 30
+	category = staple
+	tradeable = yes
+	
+	prestige_factor = 5
+	
+	consumption_tax_cost = 200
+}
+
+services = {
+	texture = "gfx/interface/icons/goods_icons/services.dds"
+	cost = 30
+	category = staple
+	tradeable = yes
+	
+	prestige_factor = 3
+	
+	consumption_tax_cost = 200
+}
+
+transportation = {
+	texture = "gfx/interface/icons/goods_icons/transportation.dds"
+	cost = 30
+	category = staple
+	tradeable = yes
+
+	prestige_factor = 4
+	
+	consumption_tax_cost = 200
+}

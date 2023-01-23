@@ -1,0 +1,349 @@
+﻿building_output_services_add = {
+	good = yes
+	percent = no
+}
+
+building_input_services_add = {
+	good = no
+	percent = no
+}
+
+building_output_honey_add = {
+	good = yes
+	percent = no
+}
+
+building_input_honey_add = {
+	good = no
+	percent = no
+}
+
+building_output_luxury_sanitary_add = {
+	good = yes
+	percent = no
+}
+
+building_input_luxury_sanitary_add = {
+	good = no
+	percent = no
+}
+
+building_output_copper_add = {
+	good = yes
+	percent = no
+}
+
+building_input_copper_add = {
+	good = no
+	percent = no
+}
+
+building_output_magnesium_add = {
+	good = yes
+	percent = no
+}
+
+building_input_magnesium_add = {
+	good = no
+	percent = no
+}
+
+building_output_luxury_jewellery_add = {
+	good = yes
+	percent = no
+}
+
+building_input_luxury_jewellery_add = {
+	good = no
+	percent = no
+}
+
+building_output_aluminium_add = {
+	good = yes
+	percent = no
+}
+
+building_input_aluminium_add = {
+	good = no
+	percent = no
+}
+
+building_output_luxury_sculptures_add = {
+	good = yes
+	percent = no
+}
+
+building_input_luxury_sculptures_add = {
+	good = no
+	percent = no
+}
+
+building_output_beer_add = {
+	good = yes
+	percent = no
+}
+
+building_input_beer_add = {
+	good = no
+	percent = no
+}
+
+building_output_cement_add = {
+	good = yes
+	percent = no
+}
+
+building_input_cement_add = {
+	good = no
+	percent = no
+}
+
+building_output_carriages_bus_add = {
+	good = yes
+	percent = no
+}
+
+building_input_carriages_bus_add = {
+	good = no
+	percent = no
+}
+
+building_output_gold_add = {
+	good = yes
+	percent = no
+}
+
+building_input_gold_add = {
+	good = no
+	percent = no
+}
+
+building_output_ornamental_rocks_add = {
+	good = yes
+	percent = no
+}
+
+building_input_ornamental_rocks_add = {
+	good = no
+	percent = no
+}
+
+building_output_electricity_add = {
+	good = yes
+	percent = no
+}
+
+building_input_electricity_add = {
+	good = no
+	percent = no
+}
+
+building_output_zamak_add = {
+	good = yes
+	percent = no
+}
+
+building_input_zamak_add = {
+	good = no
+	percent = no
+}
+
+building_output_rough_gemstones_add = {
+	good = yes
+	percent = no
+}
+
+building_input_rough_gemstones_add = {
+	good = no
+	percent = no
+}
+
+building_output_limestone_add = {
+	good = yes
+	percent = no
+}
+
+building_input_limestone_add = {
+	good = no
+	percent = no
+}
+
+building_output_water_system_add = {
+	good = yes
+	percent = no
+}
+
+building_input_water_system_add = {
+	good = no
+	percent = no
+}
+
+building_output_sanitary_add = {
+	good = yes
+	percent = no
+}
+
+building_input_sanitary_add = {
+	good = no
+	percent = no
+}
+
+building_output_rocks_add = {
+	good = yes
+	percent = no
+}
+
+building_input_rocks_add = {
+	good = no
+	percent = no
+}
+
+building_output_horse_add = {
+	good = yes
+	percent = no
+}
+
+building_input_horse_add = {
+	good = no
+	percent = no
+}
+
+building_output_motor_carriages_add = {
+	good = yes
+	percent = no
+}
+
+building_input_motor_carriages_add = {
+	good = no
+	percent = no
+}
+
+building_output_bronze_add = {
+	good = yes
+	percent = no
+}
+
+building_input_bronze_add = {
+	good = no
+	percent = no
+}
+
+building_output_gold_jewellery_add = {
+	good = yes
+	percent = no
+}
+
+building_input_gold_jewellery_add = {
+	good = no
+	percent = no
+}
+
+building_output_transportation_add = {
+	good = yes
+	percent = no
+}
+
+building_input_transportation_add = {
+	good = no
+	percent = no
+}
+
+building_output_tin_add = {
+	good = yes
+	percent = no
+}
+
+building_input_tin_add = {
+	good = no
+	percent = no
+}
+
+building_output_sculptures_add = {
+	good = yes
+	percent = no
+}
+
+building_input_sculptures_add = {
+	good = no
+	percent = no
+}
+
+building_output_zinc_add = {
+	good = yes
+	percent = no
+}
+
+building_input_zinc_add = {
+	good = no
+	percent = no
+}
+
+building_output_sewerage_add = {
+	good = yes
+	percent = no
+}
+
+building_input_sewerage_add = {
+	good = no
+	percent = no
+}
+
+building_output_carriages_add = {
+	good = yes
+	percent = no
+}
+
+building_input_carriages_add = {
+	good = no
+	percent = no
+}
+
+building_output_gemstones_add = {
+	good = yes
+	percent = no
+}
+
+building_input_gemstones_add = {
+	good = no
+	percent = no
+}
+
+building_output_luxury_art_add = {
+	good = yes
+	percent = no
+}
+
+building_input_luxury_art_add = {
+	good = no
+	percent = no
+}
+
+building_output_motor_carriages_bus_add = {
+	good = yes
+	percent = no
+}
+
+building_input_motor_carriages_bus_add = {
+	good = no
+	percent = no
+}
+
+building_output_wax_add = {
+	good = yes
+	percent = no
+}
+
+building_input_wax_add = {
+	good = no
+	percent = no
+}
+
+building_output_jewellery_add = {
+	good = yes
+	percent = no
+}
+
+building_input_jewellery_add = {
+	good = no
+	percent = no
+}

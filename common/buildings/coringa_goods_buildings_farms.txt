@@ -1,0 +1,58 @@
+﻿### ReiCoringa https://steamcommunity.com/id/JokerKing404/ ###
+
+###### Farms ###### 
+
+### Horses ###
+
+building_stud_farm = {
+	building_group = bg_stud_farm
+	texture = "gfx/interface/icons/building_icons/stud_farm.dds"
+	city_type = farm
+	levels_per_mesh = 5
+	
+	required_construction = construction_cost_low
+	terrain_manipulator = pasture
+	
+	unlocking_technologies = {
+		enclosure
+	}
+
+	production_method_groups = {
+		pmg_base_building_breeding
+		pmg_horse_slaughtering
+		pmg_horse_fencing
+		pmg_refrigeration_building_horse
+		pmg_ownership_land_building_horse
+	}
+	
+	ai_value = 2000
+}
+
+
+##############
+
+### Bees ###
+
+building_apiary_farm = {
+	building_group = bg_apiary_farm
+	texture = "gfx/interface/icons/building_icons/apiary_farm.dds"
+	city_type = farm
+	levels_per_mesh = 5
+	
+	required_construction = construction_cost_low
+	terrain_manipulator = pasture
+	
+	unlocking_technologies = {
+		enclosure
+	}
+
+	production_method_groups = {
+		pmg_base_building_apiary
+		pmg_train_automation_building_apiary
+		pmg_ownership_land_building_apiary
+	}
+	
+	ai_value = 8000
+}
+
+###########

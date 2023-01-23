@@ -1,0 +1,224 @@
+﻿### ReiCoringa https://steamcommunity.com/id/JokerKing404/ ###
+
+
+### Copper ###
+
+bg_copper_mining = {
+	parent_group = bg_mining
+	
+	default_building = building_copper_mine
+	
+	can_use_slaves = yes
+	
+	
+}
+
+bg_copper_fields = {
+	parent_group = bg_mining
+
+	auto_place_buildings = yes
+
+	discoverable_resource = yes
+	
+	depletable_resource = yes				# test yes
+	
+	pays_taxes = no
+	
+	default_building = building_copper_fields
+	
+	can_use_slaves = yes
+	
+	fired_pops_become_radical = no
+}
+
+###########
+
+
+
+
+### Tin ###
+
+bg_tin_mining = {
+	parent_group = bg_mining
+	
+	default_building = building_tin_mine
+	
+	can_use_slaves = yes
+	
+	
+}
+
+bg_tin_fields = {
+	parent_group = bg_mining
+
+	auto_place_buildings = yes
+
+	discoverable_resource = yes
+	
+	depletable_resource = yes				# test yes
+	
+	pays_taxes = no
+	
+	default_building = building_tin_fields
+	
+	can_use_slaves = yes
+	
+	fired_pops_become_radical = no
+}
+
+###########
+
+
+
+
+### Gemstones ###
+
+bg_rough_gemstones_mining = {
+	parent_group = bg_mining
+	
+	default_building = building_rough_gemstones_mine
+
+	can_use_slaves = yes
+	
+	
+}
+
+bg_rough_gemstones_fields = {
+	parent_group = bg_mining
+
+	auto_place_buildings = yes
+
+	discoverable_resource = yes
+	
+	depletable_resource = yes
+	
+	pays_taxes = no
+	
+	default_building = building_rough_gemstones_fields
+	
+	fired_pops_become_radical = no
+}
+
+
+###########
+
+
+
+
+### Zinc ###
+
+bg_zinc_mining = {
+	parent_group = bg_mining
+	
+	default_building = building_zinc_mine
+
+	can_use_slaves = yes
+	
+	
+}
+
+bg_zinc_fields = {
+	parent_group = bg_mining
+
+	auto_place_buildings = yes
+
+	discoverable_resource = yes
+	
+	depletable_resource = yes
+	
+	pays_taxes = no
+	
+	default_building = building_zinc_fields
+	
+	fired_pops_become_radical = no
+}
+
+
+###########
+
+
+
+
+### Aluminium ###
+
+bg_aluminium_mining = {
+	parent_group = bg_mining
+	
+	default_building = building_aluminium_mine
+
+	can_use_slaves = yes
+	
+	
+}
+
+bg_aluminium_fields = {
+	parent_group = bg_mining
+
+	auto_place_buildings = yes
+
+	discoverable_resource = yes
+	
+	depletable_resource = yes
+	
+	pays_taxes = no
+	
+	default_building = building_aluminium_fields
+	
+	fired_pops_become_radical = no
+}
+
+
+###########
+
+
+
+
+### Magnesium ###
+
+bg_magnesium_mining = {
+	parent_group = bg_mining
+	
+	default_building = building_magnesium_mine
+
+	can_use_slaves = yes
+	
+	
+}
+
+bg_magnesium_fields = {
+	parent_group = bg_mining
+
+	auto_place_buildings = yes
+
+	discoverable_resource = yes
+	
+	depletable_resource = yes
+	
+	pays_taxes = no
+	
+	default_building = building_magnesium_fields
+	
+	fired_pops_become_radical = no
+}
+
+
+###########
+
+
+
+
+### Rocks ###
+
+bg_rocks_mining = {
+	parent_group = bg_plantations
+	
+	default_building = building_rocks_mine
+
+	can_use_slaves = yes
+	
+	urbanization = 10
+	infrastructure_usage_per_level = 2
+}
+
+###########
+

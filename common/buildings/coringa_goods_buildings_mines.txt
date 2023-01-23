@@ -1,0 +1,291 @@
+﻿### ReiCoringa https://steamcommunity.com/id/JokerKing404/ ###
+
+###### Mines + Fields ###### 
+
+### Copper ###
+
+building_copper_mine = {
+	building_group = bg_copper_mining
+	texture = "gfx/interface/icons/building_icons/copper_mine.dds"
+	city_type = mine
+	levels_per_mesh = 5
+	required_construction = construction_cost_medium
+	terrain_manipulator = mining
+	
+	unlocking_technologies = {
+		shaft_mining
+	}
+
+	production_method_groups = {
+		pmg_mining_equipment_building_copper_mine
+		pmg_explosives_building_copper_mine
+		pmg_steam_automation_building_copper_mine
+		pmg_train_automation_building_all_mine
+		pmg_ownership_capital_building_copper_mine
+	}
+	
+	ai_value = 8000
+}
+
+building_copper_fields = {
+	building_group = bg_copper_fields
+	texture = "gfx/interface/icons/building_icons/copper_fields.dds"
+	buildable = no
+	expandable = no
+	terrain_manipulator = mining
+	
+	unlocking_technologies = {
+		prospecting
+	}
+
+	production_method_groups = {
+		pmg_base_building_copper_fields
+	}
+}
+##############
+
+### Tin ###
+
+building_tin_mine = {
+	building_group = bg_tin_mining
+	texture = "gfx/interface/icons/building_icons/tin_mine.dds"
+	city_type = mine
+	levels_per_mesh = 5
+	required_construction = construction_cost_medium
+	terrain_manipulator = mining
+	
+	unlocking_technologies = {
+		shaft_mining
+	}
+
+	production_method_groups = {
+		pmg_mining_equipment_building_tin_mine
+		pmg_explosives_building_tin_mine
+		pmg_steam_automation_building_tin_mine
+		pmg_train_automation_building_all_mine
+		pmg_ownership_capital_building_tin_mine
+	}
+	
+	ai_value = 8000
+}
+
+building_tin_fields = {
+	building_group = bg_tin_fields
+	texture = "gfx/interface/icons/building_icons/tin_fields.dds"
+	buildable = no
+	expandable = no
+	terrain_manipulator = mining
+	
+	unlocking_technologies = {
+		prospecting
+	}
+
+	production_method_groups = {
+		pmg_base_building_tin_fields
+	}
+}
+
+###########
+
+### Gemstones ###
+
+building_rough_gemstones_mine = {
+	building_group = bg_rough_gemstones_mining
+	texture = "gfx/interface/icons/building_icons/rough_gemstones_mine.dds"
+	city_type = mine
+	levels_per_mesh = 5
+	required_construction = construction_cost_medium
+	terrain_manipulator = mining
+	
+	unlocking_technologies = {
+		shaft_mining
+	}
+
+	production_method_groups = {
+		pmg_mining_equipment_building_rough_gemstones_mine
+		pmg_explosives_building_rough_gemstones_mine
+		pmg_steam_automation_building_rough_gemstones_mine
+		pmg_train_automation_building_all_mine
+		pmg_ownership_capital_building_rough_gemstones_mine
+	}
+	
+	ai_value = 7000
+}
+
+building_rough_gemstones_fields = {
+	building_group = bg_rough_gemstones_fields
+	texture = "gfx/interface/icons/building_icons/rough_gemstones_fields.dds"
+	buildable = no
+	expandable = no
+	terrain_manipulator = mining
+	
+	unlocking_technologies = {
+		prospecting
+	}
+
+	production_method_groups = {
+		pmg_base_building_rough_gemstones_fields
+	}
+}
+
+###########
+
+### Zinc ###
+
+building_zinc_mine = {
+	building_group = bg_zinc_mining
+	texture = "gfx/interface/icons/building_icons/zinc_mine.dds"
+	city_type = mine
+	levels_per_mesh = 5
+	required_construction = construction_cost_medium
+	terrain_manipulator = mining
+	
+	unlocking_technologies = {
+		shaft_mining
+	}
+
+	production_method_groups = {
+		pmg_mining_equipment_building_zinc_mine
+		pmg_explosives_building_zinc_mine
+		pmg_steam_automation_building_zinc_mine
+		pmg_train_automation_building_all_mine
+		pmg_ownership_capital_building_zinc_mine
+	}
+	
+	ai_value = 7000
+}
+
+building_zinc_fields = {
+	building_group = bg_zinc_fields
+	texture = "gfx/interface/icons/building_icons/zinc_fields.dds"
+	buildable = no
+	expandable = no
+	terrain_manipulator = mining
+	
+	unlocking_technologies = {
+		prospecting
+	}
+
+	production_method_groups = {
+		pmg_base_building_zinc_fields
+	}
+}
+
+###########
+
+### Aluminium ###
+
+building_aluminium_mine = {
+	building_group = bg_aluminium_mining
+	texture = "gfx/interface/icons/building_icons/aluminium_mine.dds"
+	city_type = mine
+	levels_per_mesh = 5
+	required_construction = construction_cost_medium
+	terrain_manipulator = mining
+	
+	unlocking_technologies = {
+		shaft_mining
+	}
+
+	production_method_groups = {
+		pmg_mining_equipment_building_aluminium_mine
+		pmg_explosives_building_aluminium_mine
+		pmg_steam_automation_building_aluminium_mine
+		pmg_train_automation_building_all_mine
+		pmg_ownership_capital_building_aluminium_mine
+	}
+	
+	ai_value = 7000
+}
+
+building_aluminium_fields = {
+	building_group = bg_aluminium_fields
+	texture = "gfx/interface/icons/building_icons/aluminium_fields.dds"
+	buildable = no
+	expandable = no
+	terrain_manipulator = mining
+	
+	unlocking_technologies = {
+		prospecting
+	}
+
+	production_method_groups = {
+		pmg_base_building_aluminium_fields
+	}
+}
+
+###########
+
+### Magnesium ###
+
+building_magnesium_mine = {
+	building_group = bg_magnesium_mining
+	texture = "gfx/interface/icons/building_icons/magnesium_mine.dds"
+	city_type = mine
+	levels_per_mesh = 5
+	required_construction = construction_cost_medium
+	terrain_manipulator = mining
+	
+	unlocking_technologies = {
+		shaft_mining
+	}
+
+	production_method_groups = {
+		pmg_mining_equipment_building_magnesium_mine
+		pmg_explosives_building_magnesium_mine
+		pmg_steam_automation_building_magnesium_mine
+		pmg_train_automation_building_all_mine
+		pmg_ownership_capital_building_magnesium_mine
+	}
+	
+	ai_value = 7000
+}
+
+building_magnesium_fields = {
+	building_group = bg_magnesium_fields
+	texture = "gfx/interface/icons/building_icons/magnesium_fields.dds"
+	buildable = no
+	expandable = no
+	terrain_manipulator = mining
+	
+	unlocking_technologies = {
+		prospecting
+	}
+
+	production_method_groups = {
+		pmg_base_building_magnesium_fields
+	}
+}
+
+###########
+
+### Rocks ###
+
+building_rocks_mine = {
+	building_group = bg_rocks_mining
+	texture = "gfx/interface/icons/building_icons/rocks_mine.dds"
+	#city_type = mine
+	city_type = farm
+	levels_per_mesh = 5
+	#required_construction = construction_cost_medium
+	#terrain_manipulator = mining
+	required_construction = construction_cost_low
+	terrain_manipulator = pasture
+	
+	unlocking_technologies = {
+		shaft_mining
+	}
+
+	production_method_groups = {
+		pmg_mining_equipment_building_rocks_mine
+		pmg_explosives_building_rocks_mine
+		pmg_steam_automation_building_rocks_mine
+		pmg_train_automation_building_all_mine
+		pmg_ownership_capital_building_rocks_mine
+	}
+	
+	ai_value = 7000
+}
+
+###########
+#

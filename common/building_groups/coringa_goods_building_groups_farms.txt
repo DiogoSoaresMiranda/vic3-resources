@@ -1,0 +1,28 @@
+﻿### ReiCoringa https://steamcommunity.com/id/JokerKing404/ ###
+
+
+### Horses ###
+
+bg_stud_farm = {
+	parent_group = bg_ranching
+	
+	default_building = building_stud_farm
+	
+	cash_reserves_max = 25000
+}
+
+###########
+
+
+
+
+### Bees ###
+
+bg_apiary_farm = {
+	parent_group = bg_plantations
+	
+	default_building = building_apiary_farm
+}
+
+###########
+
