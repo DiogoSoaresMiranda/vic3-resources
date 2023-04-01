@@ -269,6 +269,16 @@ STATE_TARAPACA = {
         bg_sulfur_mining = 24
         bg_whaling = 3
         bg_fishing = 5
+		bg_copper_mining = 40
+    }
+	resource = {
+        type = "bg_copper_fields"
+        discovered_amount = 1
+    }
+	resource = {
+        type = "bg_copper_fields"
+        depleted_type = "bg_copper_mining"
+        undiscovered_amount = 20
     }
     naval_exit_id = 3152
 }
@@ -289,6 +299,16 @@ STATE_ANTOFAGASTA = {
         bg_iron_mining = 30
         bg_sulfur_mining = 48
         bg_fishing = 5
+		bg_copper_mining = 100
+    }
+	resource = {
+        type = "bg_copper_fields"
+        discovered_amount = 10
+    }
+	resource = {
+        type = "bg_copper_fields"
+        depleted_type = "bg_copper_mining"
+        undiscovered_amount = 30
     }
     naval_exit_id = 3152
 }
@@ -411,6 +431,12 @@ STATE_LIMA = {
         bg_logging = 11
         bg_whaling = 5
         bg_fishing = 7
+		bg_copper_mining = 30
+    }
+	resource = {
+        type = "bg_copper_fields"
+        depleted_type = "bg_copper_mining"
+        undiscovered_amount = 15
     }
     naval_exit_id = 3024
 }
@@ -453,6 +479,12 @@ STATE_AREQUIPA = {
         bg_sulfur_mining = 32
         bg_logging = 4
         bg_fishing = 5
+		bg_copper_mining = 20
+    }
+	resource = {
+        type = "bg_copper_fields"
+        depleted_type = "bg_copper_mining"
+        undiscovered_amount = 30
     }
     naval_exit_id = 3152
 }

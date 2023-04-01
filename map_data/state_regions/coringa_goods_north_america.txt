@@ -1260,7 +1260,18 @@ STATE_NEW_MEXICO = {
     capped_resources = {
         bg_coal_mining = 20
         bg_logging = 6
+		bg_copper_mining = 45
     }
+	resource = {
+        type = "bg_copper_fields"
+        discovered_amount = 3
+    }
+	resource = {
+        type = "bg_copper_fields"
+        depleted_type = "bg_copper_mining"
+        undiscovered_amount = 5
+    }
+	
 }
 
 STATE_CALIFORNIA = {
@@ -1309,11 +1320,21 @@ STATE_SONORA = {
         bg_iron_mining = 27
         bg_logging = 4
         bg_fishing = 7
+		bg_copper_mining = 45
     }
     resource = {
         type = "bg_gold_fields"
         depleted_type = "bg_gold_mining"
         undiscovered_amount = 6
+    }
+	resource = {
+        type = "bg_copper_fields"
+        discovered_amount = 3
+    }
+	resource = {
+        type = "bg_copper_fields"
+        depleted_type = "bg_copper_mining"
+        undiscovered_amount = 5
     }
     naval_exit_id = 3153
 }

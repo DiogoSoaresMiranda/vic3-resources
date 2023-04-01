@@ -8,18 +8,6 @@
 # STAPLE #
 ##########
 
-jewellery = {
-	texture = "gfx/interface/icons/goods_icons/jewellery.dds"
-	cost = 20
-	category = staple
-	
-	prestige_factor = 3
-	
-	convoy_cost_multiplier = 0.5
-	
-	consumption_tax_cost = 200
-}
-
 beer = {
 	texture = "gfx/interface/icons/goods_icons/beer.dds"
 	cost = 15
@@ -50,25 +38,25 @@ horse = {
 	consumption_tax_cost = 250
 }
 
-carriages_bus = {
-	texture = "gfx/interface/icons/goods_icons/carriages_bus.dds"
-	cost = 30
-	category = staple
-	
-	obsession_chance = 1.0
-	
-	prestige_factor = 7
-}
+#carriages_bus = {
+#	texture = "gfx/interface/icons/goods_icons/carriages_bus.dds"
+#	cost = 30
+#	category = staple
+#	
+#	obsession_chance = 1.0
+#	
+#	prestige_factor = 7
+#}
 
-motor_carriages_bus = {
-	texture = "gfx/interface/icons/goods_icons/motor_carriages_bus.dds"
-	cost = 40
-	category = staple
-	
-	obsession_chance = 1.5
-	
-	prestige_factor = 10
-}
+#motor_carriages_bus = {
+#	texture = "gfx/interface/icons/goods_icons/motor_carriages_bus.dds"
+#	cost = 40
+#	category = staple
+#	
+#	obsession_chance = 1.5
+#	
+#	prestige_factor = 10
+#}
 ##############
 
 ## Water ##
@@ -272,16 +260,28 @@ gemstones = {
 	obsession_chance = 0.75
 }
 
-gold_jewellery = {
-	texture = "gfx/interface/icons/goods_icons/gold_jewellery.dds"
-	cost = 130
+jewellery = {
+	texture = "gfx/interface/icons/goods_icons/jewellery.dds"
+	cost = 20
 	category = luxury
 	
-	obsession_chance = 1.0
-	prestige_factor = 5
+	prestige_factor = 3
 	
-	convoy_cost_multiplier = 0.1
+	convoy_cost_multiplier = 0.5
+	
+	consumption_tax_cost = 200
 }
+
+#gold_jewellery = {
+#	texture = "gfx/interface/icons/goods_icons/gold_jewellery.dds"
+#	cost = 130
+#	category = luxury
+#	
+#	obsession_chance = 1.0
+#	prestige_factor = 5
+#	
+#	convoy_cost_multiplier = 0.1
+#}
 
 luxury_jewellery = {
 	texture = "gfx/interface/icons/goods_icons/luxury_jewellery.dds"
@@ -316,16 +316,16 @@ luxury_sculptures = {
 	convoy_cost_multiplier = 1.5
 }
 
-luxury_art = {
-	texture = "gfx/interface/icons/goods_icons/luxury_art.dds"
-	cost = 400
-	category = luxury
-	
-	obsession_chance = 1.5
-	prestige_factor = 35
-	
-	traded_quantity = 5
-}
+#luxury_art = {
+#	texture = "gfx/interface/icons/goods_icons/luxury_art.dds"
+#	cost = 400
+#	category = luxury
+#	
+#	obsession_chance = 1.5
+#	prestige_factor = 35
+#	
+#	traded_quantity = 5
+#}
 
 carriages = {
 	texture = "gfx/interface/icons/goods_icons/carriages.dds"
@@ -390,14 +390,14 @@ honey = {
 # OVERRIDE #
 ############
 
-gold = {
-	texture = "gfx/interface/icons/goods_icons/gold.dds"
-	cost = 100
-	category = luxury
-	tradeable = yes
-	fixed_price = yes
-	prestige_factor = 5
-}
+#gold = {
+#	texture = "gfx/interface/icons/goods_icons/gold.dds"
+#	cost = 100
+#	category = luxury
+#	tradeable = yes
+#	fixed_price = yes
+#	prestige_factor = 5
+#}
 
 transportation = {
 	texture = "gfx/interface/icons/goods_icons/transportation.dds"

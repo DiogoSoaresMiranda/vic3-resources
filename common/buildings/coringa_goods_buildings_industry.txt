@@ -81,7 +81,7 @@ jewelry = {
 		pmg_aluminium_jewellery
 		pmg_zamak_jewellery
 		pmg_bronze_jewellery
-		pmg_gold_jewellery
+		#pmg_gold_jewellery
 		pmg_luxury_jewellery
 		pmg_ownership_capital_building_industry
 	}
@@ -101,7 +101,7 @@ carriage_house = {
 	
 	production_method_groups = {
 		pmg_carriage_production
-		pmg_motor_carriage_production
+		#pmg_motor_carriage_production
 		pmg_automation_building_foundry
 		pmg_ownership_capital_building_industry
 	}

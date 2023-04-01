@@ -93,8 +93,8 @@ pmg_polishing_gemstones = {
 pmg_aluminium_jewellery = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		pm_no_production
 		pm_aluminium_jewellery
+		pm_no_production
 	}
 }
 
@@ -114,13 +114,13 @@ pmg_bronze_jewellery = {
 	}
 }
 
-pmg_gold_jewellery = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	production_methods = {
-		pm_no_production_fourth
-		pm_gold_jewellery
-	}
-}
+#pmg_gold_jewellery = {
+#	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+#	production_methods = {
+#		pm_no_production_fourth
+#		pm_gold_jewellery
+#	}
+#}
 
 pmg_luxury_jewellery = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
@@ -142,14 +142,14 @@ pmg_carriage_production = {
 	}
 }
 
-pmg_motor_carriage_production = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	production_methods = {
-		pm_no_production
-		pm_carriage_bus_production
-		pm_motor_carriages_bus_production
-	}
-}
+#pmg_motor_carriage_production = {
+#	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+#	production_methods = {
+#		pm_no_production
+#		pm_carriage_bus_production
+#		pm_motor_carriages_bus_production
+#	}
+#}
 
 #Sanitary Facilities
 

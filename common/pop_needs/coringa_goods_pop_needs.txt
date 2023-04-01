@@ -188,16 +188,16 @@ popneed_jewellery = {
 	entry = {
 		goods = jewellery
 		
-		weight = 1
-		max_weight = 2.0 # Maxes out at 40% of supply share
+		weight = 2
+		max_weight = 6.0 # Maxes out at 40% of supply share
 		min_weight = 0.0
 	}
 	
 	entry = {
-		goods = gold_jewellery
+		goods = luxury_jewellery
 		
 		weight = 0.5
-		max_weight = 3.0 # Maxes out at 40% of supply share
+		max_weight = 2.0 # Maxes out at 40% of supply share
 		min_weight = 0.0
 	}
 	
@@ -211,15 +211,7 @@ popneed_jewellery = {
 }
 
 popneed_luxury_jewellery = {
-	default = gold_jewellery
-	
-	entry = {
-		goods = gold_jewellery
-		
-		weight = 0.5
-		max_weight = 2.0 # Maxes out at 40% of supply share
-		min_weight = 0.0
-	}
+	default = luxury_jewellery
 	
 	entry = {
 		goods = luxury_jewellery
